@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Рассказ о поездке на остров Маврикий</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    h1, h2, h3 {
+  font-weight: bold;
+  color: #5a3c06;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+}
+
+ul {
+  list-style: circle;
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #f3e6aedc;
+  border-radius: 10px;
+}
+</style>
+</head>
+<body>
+  <div class="section">
+    <h1>Поездка на остров Маврикий</h1>
+    <img src="https://i.pinimg.com/originals/5f/62/a6/5f62a60af733bd3fbe4f187cbfba6a80.jpg" alt="Пляж на Маврикии">
+    
+    <div class="section">
+        <h2>Прибытие на остров</h2>
+        
+        <p>Я прилетел на остров Маврикий в начале июня. С самого прибытия меня встретил теплый воздух и кристально чистые воды. Первое, что я заметил, это невероятно яркий цвет моря.</p>
+      </div>
+      
+      <div class="section">
+        <h2>Развлечения на острове</h2>
+        
+        <p>На Маврикии мне удалось попробовать множество новых вещей. Я попробовал сноркелинг и погрузился в мир подводной жизни. Я также отправился на экскурсию в национальный парк и посмотрел на местных животных.</p>
+        
+        <div class="section">
+          <h3>Пляжный отдых</h3>
+          
+          <p>Одним из моих любимых мест на острове был пляж. Теплый белый песок и кристально чистые воды создавали идеальную атмосферу для отдыха и расслабления. Я проводил много времени на пляже, загорая и плавая в море.</p>
+          
+          <ul>
+            <li>Загорание на пляже</li>
+            <li>Плавание в море</li>
+            <li>Игры на пляже</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="section">
+        <h3>Культурные достопримечательности</h3>
+        <p>Во время поездки я также посетил множество культурных достопримечательностей. Я посетил музеи и галереи, где узнал больше о культуре и истории Маврикия. Я также посетил некоторые местные рестораны и попробовал местную кухню.</p>
+        <ul>
+          <li>Посещение музеев и галерей</li>
+          <li>Изучение культуры и истории Маврикия</li>
+          <li>Проба местной кухни</li>
+        </ul>
+      </div>          
+<div class="section">
+  <h2>Заключение</h2>
+  <p>В целом, поездка на Маврикий была незабываемым опытом. Я узнал много нового о культуре и жизни на острове. Я также наслаждался красотой природы и отдыхал на пляжах. Я очень рекомендую посетить этот остров, если у вас есть возможность.</p>
+</div>
+<div class="section">
+    <h2>Отправить отзыв</h2>
+    <form>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+      <button type="submit">Отправить</button>
+    </form>
+  </div>
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const email = document.querySelector('#email').value;
+      if (email) {
+        alert('Данные отправлены!');
+      } else {
+        alert('Пожалуйста, введите корректный email!');
+      }
+    });
+  </script>  
+</body>
+</html>
